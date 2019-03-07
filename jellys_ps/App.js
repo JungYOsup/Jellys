@@ -1,18 +1,9 @@
 import React from "react";
-import { StyleSheet, Text, View, Image, Dimensions } from "react-native";
-import { LinearGradient } from "expo";
-import First_Scene from "./First_Scene";
+import Introduce from "./Introduce.js";
+import Login from "./Login.js";
 
-const { height, width } = Dimensions.get("window");
 export default class App extends React.Component {
   render() {
-    return <First_Scene />;
+    return <Login />;
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff"
-  }
-});

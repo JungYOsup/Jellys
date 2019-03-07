@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-native-search-box": "^0.0.19",
+    "styled-components": "^4.1.3"
+  }
+}
